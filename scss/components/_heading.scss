@@ -1,0 +1,10 @@
+.heading {
+    grid-column: 4 / 7;
+    grid-row: 2 / 3;
+
+    &-text {
+        font-family: "vazir", sans-serif;
+        
+    }
+
+}
