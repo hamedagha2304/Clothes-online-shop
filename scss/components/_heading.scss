@@ -1,10 +1,14 @@
 .heading {
     grid-column: 4 / 7;
     grid-row: 2 / 3;
+    text-align: center;
 
     &-text {
-        font-family: "vazir", sans-serif;
-        
+        font-size: size(xl) * 2;
+        font-weight: lighter;  
+        font-family: "yekan", sans-serif;
+        font-style: italic;
+        font-weight: bold;    
     }
 
 }
