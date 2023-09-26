@@ -296,22 +296,28 @@ html {
       font-size: 2rem; }
 
 .social-icons-item:nth-child(1) .social-icons-link {
-  color: #3b5998; }
+  color: #3b5998;
+  border: 0.1rem solid #3b5998; }
 
 .social-icons-item:nth-child(2) .social-icons-link {
-  color: #b31217; }
+  color: #b31217;
+  border: 0.1rem solid #b31217; }
 
 .social-icons-item:nth-child(3) .social-icons-link {
-  color: #dc4e41; }
+  color: #dc4e41;
+  border: 0.1rem solid #dc4e41; }
 
 .social-icons-item:nth-child(4) .social-icons-link {
-  color: #55acee; }
+  color: #55acee;
+  border: 0.1rem solid #55acee; }
 
 .social-icons-item:nth-child(5) .social-icons-link {
-  color: #517fa4; }
+  color: #517fa4;
+  border: 0.1rem solid #517fa4; }
 
 .social-icons-item:nth-child(6) .social-icons-link {
-  color: #0077b5; }
+  color: #0077b5;
+  border: 0.1rem solid #0077b5; }
 
 .logo {
   grid-column: 1/2;
