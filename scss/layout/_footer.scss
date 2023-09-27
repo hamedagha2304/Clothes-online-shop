@@ -4,6 +4,9 @@
     @include flexPosition(space-around);
     padding: 5rem 0;
     border-top: 0.1rem solid color(primary);
+    @include response(lg) {
+        flex-wrap: wrap
+    }
 }
 
 .footer-nav {
@@ -15,6 +18,12 @@
 }
 
 .contact {
+    @include response(lg) {
+        padding: 0 10rem;
+        order: 1;
+        margin-top: 4rem;
+    }
+
     &-heading {
         font-size: size(xl);
         color: color(primary);

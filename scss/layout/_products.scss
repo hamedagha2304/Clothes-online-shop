@@ -50,16 +50,25 @@
         opacity: 0;
         visibility: hidden;
         transition: all 1s 0.2s;
+        @include response(lg) {
+            padding: 1rem;
+        }    
 
         &-heading {
             font-size: size(xl);
             font-family: "yekan";
+            @include response(lg) {
+                font-size: size(md);
+            }
         }
 
         &-price {
             font-size: size(lg);
             font-weight: 300;
             margin: 1rem 0;
+            @include response(lg) {
+                font-size: size(sm);
+            }
 
             span {
                 font-weight: 600;
@@ -74,6 +83,9 @@
             padding: 0.5rem 1rem;
             border: 0.1rem solid color(quaternary);
             background-color: lighten(color(primary), 20%);
+            @include response(lg) {
+                padding: 0.2rem 0.5rem;
+            }
         }
     }
 }
