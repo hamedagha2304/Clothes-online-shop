@@ -53,12 +53,19 @@
         @include response(lg) {
             padding: 1rem;
         }    
+        @include response(sm) {
+            background-color: transparent;
+            border: none;
+        }    
 
         &-heading {
             font-size: size(xl);
             font-family: "yekan";
             @include response(lg) {
                 font-size: size(md);
+            }
+            @include response(sm) {
+               display: none;
             }
         }
 
@@ -69,6 +76,10 @@
             @include response(lg) {
                 font-size: size(sm);
             }
+
+            @include response(sm) {
+                display: none;
+             }
 
             span {
                 font-weight: 600;
@@ -85,6 +96,10 @@
             background-color: lighten(color(primary), 20%);
             @include response(lg) {
                 padding: 0.2rem 0.5rem;
+            }
+            @include response(sm) {
+                padding: 0.5rem 0.7rem;
+                width: 7rem;
             }
         }
     }

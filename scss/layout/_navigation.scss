@@ -8,6 +8,14 @@
     @include response(lg) {
         grid-column: 5 / 10;
     }
+
+    @include response(md) {
+        grid-column: 4 / 10;
+    }
+
+    @include response(sm) {
+        grid-column: 2 / 10;
+    }
 }
 
 .second-nav {
@@ -16,5 +24,9 @@
     @include navigation;
     @include response(lg) {
         grid-column: 2 / 9;
+    }
+
+    @include response(md) {
+        grid-column: 1 / -1;
     }
 }
